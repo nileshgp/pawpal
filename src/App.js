@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header/Header';
 import PawPalCards from './PawPalCards/PawPalCards';
+import SwipeButtons from './SwipeButtons/SwipeButtons';
 import { BrowserRouter as Router, Switch , Route } from "react-router-dom";
 import './App.css';
 
@@ -15,6 +16,7 @@ const App = () => {
           </Route>
           <Route path="/">
             <PawPalCards />
+            <SwipeButtons />
           </Route>
         </Switch>
       </Router>
